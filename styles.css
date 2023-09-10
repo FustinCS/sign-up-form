@@ -6,6 +6,23 @@
     font-style: normal;
 }
 
-h1 {
-    font-family: 'norsebold';
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+}
+
+.picture {
+    background-image: url(images/leaves.jpg);
+    background-size: cover;
+    flex: 1 1 auto;
+}
+
+.info {
+    flex: 2 1 auto;
 }
