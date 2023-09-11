@@ -86,16 +86,29 @@ input, label {
 }
 
 input {
-    min-width: 150px;
-    
+    min-width: 400px;
     border: 2px solid #E5E7EB;
     border-radius: 4px;
     padding: 4px 8px;
     font-size: 1.2rem;
 }
 
+label {
+    font-size: 0.8rem;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+    color:#484a4e;
+    margin-bottom: 2px;
+}
+
+input:focus {
+    outline: none;
+    border-color: rgb(131, 160, 255);
+    box-shadow: 2px 4px 4px 0 rgba(0, 0, 0, 0.2);
+}
+
 form p {
     font-size: 1.5rem;
     font-weight: bold;
-    color:#3a3b3f;
+    color:#484a4e;
 }
