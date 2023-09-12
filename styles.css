@@ -24,6 +24,27 @@ body {
     width: 35%;
 }
 
+.logo {
+    background-color: rgb(0, 0, 0, 0.5);
+    display: flex;
+    padding: 16px 32px;
+    justify-content: center;
+    margin-top: 25%;
+    align-items: center;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+
+.logo img {
+    width: 100px;
+}
+
+.logo h1 {
+    color: white;
+    font-family: 'norsebold', Arial, Helvetica, sans-serif;
+    font-size: 7rem;
+}
+
 .info {
     width: 65%;
     display: flex;
