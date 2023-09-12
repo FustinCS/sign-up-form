@@ -21,6 +21,7 @@ body {
 .sidebar {
     background: url('images/leaves.jpg');
     background-size: cover;
+    background-position: center center;
     width: 35%;
 }
 
@@ -146,6 +147,18 @@ form p {
     font-size: 1.5rem;
     font-weight: bold;
     color:#484a4e;
+}
+
+form .error {
+    outline: none;
+    border-color: rgb(255, 0, 0);
+    box-shadow: 2px 4px 4px 0 rgba(0, 0, 0, 0.2);
+}
+
+.error + span::after {
+    content: "* Passwords do not match";
+    color: red;
+    font-size: 0.8rem;
 }
 
 @media only screen and (max-width: 850px) {
