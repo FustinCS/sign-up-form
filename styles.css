@@ -159,7 +159,36 @@ form .error {
 }
 
 @media only screen and (max-width: 850px) {
+    body {
+        flex-direction: column;
+    }
+
     .input {
         width: 80%;
+    }
+
+    .button-container {
+        margin: 0 auto;
+    }
+
+    .sidebar {
+        width: 100%;
+    }
+
+    .logo {
+        margin: auto 0;
+    }
+
+    .info {
+        width: 100%;
+    }
+
+    .form-container {
+        justify-content: center;
+    }
+
+    .info-heading p,
+    .form-container p {
+        text-align: center;
     }
 }
